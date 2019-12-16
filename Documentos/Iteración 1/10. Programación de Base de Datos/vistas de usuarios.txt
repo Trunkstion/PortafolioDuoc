@@ -1,0 +1,19 @@
+-- Lista de pilotos
+
+CREATE VIEW Lista_de_pilotos AS
+SELECT pi.id,per.rut, per.nombre, per.apellidos,pi.HORAS_VUELO,pi.VENCIMIENTO_MEDICINA
+FROM personas per
+INNER JOIN usuarios u  on per.id = u.id
+INNER JOIN pilotos pi on per.id = pi.id and per.id = u.id
+WHERE u.PERFILES_USUARIOS_ID =3;
+
+
+
+-- Lista usuarios
+
+CREATE VIEW Lista_de_usuarios AS
+SELECT per.id, per.rut, per.nombre, per.apellidos,per.SEXO,per.TELEFONO,per.CORREO,per.NACIONALIDAD,pi.DESCRIPCION
+FROM personas per
+INNER JOIN usuarios u  on per.id = u.id
+INNER JOIN perfiles_usuarios pi on u.id = pi.id;
+

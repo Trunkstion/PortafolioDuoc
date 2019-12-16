@@ -1,0 +1,352 @@
+
+
+-- INSERTAR DATOS 
+
+
+-- TABLA PERFILES_USUARIOS
+INSERT INTO PERFILES_USUARIOS  VALUES (1,'Administrador');
+INSERT INTO PERFILES_USUARIOS  VALUES (2,'Operador');
+INSERT INTO PERFILES_USUARIOS  VALUES (3,'Piloto');
+INSERT INTO PERFILES_USUARIOS  VALUES (4,'Consultor');
+
+
+
+-- TABLA USUARIOS
+
+INSERT INTO usuarios  VALUES (1,'Aramis','Caryn','1');
+INSERT INTO usuarios  VALUES (2,'Tiago','Norman','3');
+INSERT INTO usuarios  VALUES (3,'Salvador','Cailin','3');
+INSERT INTO usuarios  VALUES (4,'Ariel','Caleb','3');
+INSERT INTO usuarios  VALUES (5,'Cristofer','Shelby','3');
+INSERT INTO usuarios  VALUES (6,'Milynin','Keely','3');
+INSERT INTO usuarios  VALUES (7,'Christopher','Vivian','3');
+INSERT INTO usuarios  VALUES (8,'Borja','Sybil','3');
+INSERT INTO usuarios  VALUES (9,'Ían','Iona','3');
+INSERT INTO usuarios  VALUES (10,'Yeremy','Talon','3');
+INSERT INTO usuarios  VALUES (11,'Alexandro','Deacon','2');
+INSERT INTO usuarios  VALUES (12,'Jair','Martin','4');
+INSERT INTO usuarios  VALUES (13,'Vladimir','Debra','3');
+INSERT INTO usuarios  VALUES (14,'Ayron','Chloe','2');
+INSERT INTO usuarios  VALUES (15,'Blas','Lilah','3');
+INSERT INTO usuarios  VALUES (16,'Lucio','Clark','2');
+INSERT INTO usuarios  VALUES (17,'Benjamyn','Jamalia','2');
+INSERT INTO usuarios  VALUES (18,'Isaac','Stacy','3');
+INSERT INTO usuarios  VALUES (19,'Milan','Carson','3');
+INSERT INTO usuarios  VALUES (20,'Milgin','Ina','3');
+INSERT INTO usuarios  VALUES (21,'Jordan','Estandarte','3');
+INSERT INTO usuarios  VALUES (22,'Diego','Patito','3');
+INSERT INTO usuarios  VALUES (23,'Alexis','Carman','3');
+INSERT INTO usuarios  VALUES (24,'Samuel','Sapito','3');
+INSERT INTO usuarios  VALUES (25,'Camilo','salamanca','3');
+INSERT INTO usuarios  VALUES (26,'Esteban','Palma','3');
+INSERT INTO usuarios  VALUES (27,'Juan','Gonzalez','3');
+INSERT INTO usuarios  VALUES (28,'Rodrigo','Pinochet','3');
+INSERT INTO usuarios  VALUES (29,'Hernan','Saavedra','3');
+INSERT INTO usuarios  VALUES (30,'Virgilio','Sixpack','1');
+
+
+
+
+-- TABLA PERSONAS
+
+
+INSERT INTO personas VALUES (1,'16077658-7','Amery','Hanson Lott','M','21/05/1976','+569 95426587','pepito@hotmal.com','Chile',1);
+INSERT INTO personas VALUES (2,'15772886-5','Nigel','Martin Herring','M','05/07/1976','+569 98671207','nigel@gmail.com','Chile',2);
+INSERT INTO personas VALUES (3,'14205047-6','Blake','Hahn Saunders','M','09/07/1974','+569 99487209','hannabanana@hotmail.com','Chile',3);
+INSERT INTO personas VALUES (4,'16454496-3','Kareem','Blair Moreno','M','26/12/1991','+569 91890578','chispa@live.cl','Chile',4);
+INSERT INTO personas VALUES (5,'14997374-5','Lewis','Peters Fernandez','M','17/02/1989','+569 96041603','supervaca@live.cl','Chile',5);
+INSERT INTO personas VALUES (6,'1630850-8','Odysseus','Spencer Powers','M','26/12/1978','+569 97233376','mugita@hotmail.com','Chile',6);
+INSERT INTO personas VALUES (7,'17272937-8','Allistair','Bowman Fuentes','M','31/08/1990','+569 92981903','superman@live.cl','Chile',7);
+INSERT INTO personas VALUES (8,'15395178-8','Hilel','Macias Pratt','M','02/04/1988','+569 96107919','lipito@hotmail.com','Chile',8);
+INSERT INTO personas VALUES (9,'17770930-6','Wade','Cooke Huff','M','19/01/1986','+569 97796881','cereal@gmail.com','Chile',9);
+INSERT INTO personas VALUES (10,'17147623-1','Hu','Clayton Herring','M','12/11/1971','+569 92292579','grancaly@hotmail.com','Chile',10);
+INSERT INTO personas VALUES (11,'18771434-3','Ivan','Dickson Wynn','M','11/04/1988','+569 96284002','jhon@gmail.com','Chile',11);
+INSERT INTO personas VALUES (12,'14372617-2','Aquila','Cash William','M','05/08/1972','+569 96832020','papasegundo@live.cl','Chile',12);
+INSERT INTO personas VALUES (13,'1629663-1','Lawrence','Rasmussen Watson','M','23/07/1972','+569 95007366','santopadre@live.cl','Chile',13);
+INSERT INTO personas VALUES (14,'18197194-3','Stephen','Mcdowell Peters','M','12/01/1978','+569 95221832','nenetravieso@live.cl','Chile',14);
+INSERT INTO personas VALUES (15,'17549499-3','Burton','Lara Greer','M','20/03/1970','+569 98820179','chicoperseve@live.cl','Chile',15);
+INSERT INTO personas VALUES (16,'16132547-3','Wyatt','Best Huff','M','19/12/1994','+569 95588713','profesional@hotmail.com','Chile',16);
+INSERT INTO personas VALUES (17,'15533550-7','Tiger','Nguyen Silva','M','10/04/1968','+569 96228219','pandi@gmail.com','Chile',17);
+INSERT INTO personas VALUES (18,'18009239-9','Ahmed','Morris Dominguez','M','29/05/1977','+569 90275892','stargate@gmail.com','Chile',18);
+INSERT INTO personas VALUES (19,'15283480-7','Hedley','West Ashley','M','01/07/1993','+569 97141651','servals@live.cl','Chile',19);
+INSERT INTO personas VALUES (20,'16859143-8','Jordan','Donoso Rivas','M','03/04/1982','+569 97972954','jordan@gmail.com','Chile',20);
+INSERT INTO personas VALUES (21,'14879243-9','Diego','Mandarina Rosas','M','05/04/1978','+569 94912963','mandarina@gmail.com','Chile',21);
+INSERT INTO personas VALUES (22,'16959343-8','Hernan','Saavedra Ginson','M','07/05/1979','+569 94352975','gibson@gmail.com','Chile',22);
+INSERT INTO personas VALUES (23,'17859453-7','Virgilio','Castro Marlon','M','02/06/1985','+569 94906905','castro@gmail.com','Chile',23);
+INSERT INTO personas VALUES (24,'18759543-4','Camilo','Sexto Gonzalez','M','01/04/1984','+569 94902369','sexto@gmail.com','Chile',24);
+INSERT INTO personas VALUES (25,'14659733-9','Esteban','Pinto Ayala','M','07/08/1989','+569 94202365','ayala@gmail.com','Chile',25);
+INSERT INTO personas VALUES (26,'15459823-4','Brayan','Lagos Pinto','M','09/07/1988','+569 94102465','lagos@gmail.com','Chile',26);
+INSERT INTO personas VALUES (27,'17354913-7','Carlos','Salsman Vergara','M','07/01/1982','+569 94302165','salsman@gmail.com','Chile',27);
+INSERT INTO personas VALUES (28,'16259043-5','Juan','Pavez Rivas','M','08/03/1979','+569 94901964','pavez@gmail.com','Chile',28);
+INSERT INTO personas VALUES (29,'16159193-4','Barto','Potter Stay','M','07/02/1986','+569 94550295','potter@gmail.com','Chile',29);
+INSERT INTO personas VALUES (30,'15264533-8','Stif','Maturana Calderon','M','04/07/1985','+569 92222295','maturana@gmail.com','Chile',30);
+
+
+
+
+-- TABLA PILOTOS (id,horas_vuelo,dias_vuelo,vencimiento_medicina,ultimo_vuelo_realizado,personas_id)
+
+INSERT INTO pilotos VALUES (1,1267,120,'15/04/2018','21/01/2016',2);
+INSERT INTO pilotos VALUES (2,457,67,'05/11/2017','14/01/2016',3);
+INSERT INTO pilotos VALUES (3,685,72,'29/04/2018','10/09/2014',4);
+INSERT INTO pilotos VALUES (4,1088,112,'03/12/2018','25/02/2014',5);
+INSERT INTO pilotos VALUES (5,1097,116,'13/02/2017','24/02/2014',6);
+INSERT INTO pilotos VALUES (6,1355,129,'05/02/2018','15/01/2014',7);
+INSERT INTO pilotos VALUES (7,1154,119,'24/07/2018','01/07/2015',9);
+INSERT INTO pilotos VALUES (8,395,55,'27/07/2018','06/10/2015',10);
+INSERT INTO pilotos VALUES (9,1352,134,'25/12/2018','30/06/2015',13);
+INSERT INTO pilotos VALUES (10,550,67,'21/11/2017','11/03/2015',15);
+INSERT INTO pilotos VALUES (11,1195,140,'13/10/2018','02/06/2016',18);
+INSERT INTO pilotos VALUES (12,898,88,'17/07/2018','27/04/2016',19);
+INSERT INTO pilotos VALUES (13,228,70,'09/01/2018','01/09/2016',20);
+INSERT INTO pilotos VALUES (14,1331,140,'01/09/2018','22/11/2015',21);
+INSERT INTO pilotos VALUES (15,1226,134,'13/02/2017','23/04/2016',22);
+INSERT INTO pilotos VALUES (16,1961,179,'06/07/2017','29/07/2016',23);
+INSERT INTO pilotos VALUES (17,1605,162,'04/06/2018','25/08/2016',24);
+INSERT INTO pilotos VALUES (18,1391,120,'16/11/2017','03/05/2016',25);
+INSERT INTO pilotos VALUES (19,710,99,'10/10/2017','09/01/2016',26);
+INSERT INTO pilotos VALUES (20,700,96,'21/11/2017','13/07/2016',27);
+INSERT INTO pilotos VALUES (21,550,79,'06/12/2017','04/01/2016',28);
+INSERT INTO pilotos VALUES (22,650,91,'11/12/2017','16/07/2016',29);
+
+
+
+-- TABLA tipos_licencias
+
+INSERT INTO tipos_licencias VALUES (1,'Alumno Piloto ');
+INSERT INTO tipos_licencias VALUES (2,'Piloto Privado Avion');
+INSERT INTO tipos_licencias VALUES (3,'Piloto Privado Heli');
+INSERT INTO tipos_licencias VALUES (4,'Piloto Comercial');
+INSERT INTO tipos_licencias VALUES (5,'Piloto Transporte');
+INSERT INTO tipos_licencias VALUES (6,'Piloto Linea Aerea');
+
+
+
+-- TABLA licencias   id, numero licencia, tipo de licencia , fecha vencimiento, horas de vuelo, dias_vuelo, pilotos_id
+
+INSERT INTO licencias VALUES (1,2543,2,'08/11/2017',1267,120, 1);
+INSERT INTO licencias VALUES (2,2563,3,'08/12/2018',200,33, 2);
+INSERT INTO licencias VALUES (3,2573,2,'06/10/2018',685,72, 3);
+INSERT INTO licencias VALUES (4,2583,2,'05/12/2017',1088,112, 4);
+INSERT INTO licencias VALUES (5,2593,2,'01/12/2018',1097,116, 5);
+INSERT INTO licencias VALUES (6,2533,2,'02/09/2017',1355,129, 6);
+INSERT INTO licencias VALUES (7,2523,2,'03/08/2018',1154,119, 7);
+INSERT INTO licencias VALUES (8,2513,2,'04/06/2017',395,55, 8);
+INSERT INTO licencias VALUES (9,2143,2,'15/07/2018',1352,134, 9);
+INSERT INTO licencias VALUES (10,2243,2,'17/05/2018',550,67, 10);
+INSERT INTO licencias VALUES (11,2343,2,'21/07/2017',1195,140, 11);
+INSERT INTO licencias VALUES (12,2443,2,'25/02/2018',898,88, 12);
+INSERT INTO licencias VALUES (13,1563,2,'24/03/2017',228,70, 13);
+INSERT INTO licencias VALUES (14,2999,2,'27/03/2019',1331,140, 14);
+INSERT INTO licencias VALUES (15,2555,2,'28/04/2017',1226,134, 15);
+INSERT INTO licencias VALUES (16,1243,2,'29/05/2019',1961,179, 16);
+INSERT INTO licencias VALUES (17,6543,2,'15/06/2017',1605,162, 17);
+INSERT INTO licencias VALUES (18,8543,2,'17/07/2019',1391,120, 18);
+INSERT INTO licencias VALUES (19,9543,2,'19/08/2017',710,99, 19);
+INSERT INTO licencias VALUES (20,1143,2,'20/09/2018',700,96, 20);
+INSERT INTO licencias VALUES (21,1678,2,'12/10/2019',550,79, 21);
+INSERT INTO licencias VALUES (22,4543,2,'11/12/2017',350,40, 22);
+
+
+
+
+
+
+-- TABLA AERODROMOS
+
+INSERT INTO aerodromos VALUES (1,'Aeródromo San Gerónimo','Algarrobo');
+INSERT INTO aerodromos VALUES (2,'Aeródromo El Tapihue','Casablanca');
+INSERT INTO aerodromos VALUES (3,'Aeropuerto Mataveri','Isla de Pascua');
+INSERT INTO aerodromos VALUES (4,'Aeródromo Robinson Crusoe','Isla Robinson Crusoe');
+INSERT INTO aerodromos VALUES (5,'Aeródromo Diego Portales','La Ligua');
+INSERT INTO aerodromos VALUES (6,'Aeródromo San Rafael','Los Andes');
+INSERT INTO aerodromos VALUES (7,'Aeródromo Olmué','Olmué');
+INSERT INTO aerodromos VALUES (8,'Aeródromo El Boco','Quillota');
+INSERT INTO aerodromos VALUES (9,'Aeródromo Víctor Lafón','San Felipe');
+INSERT INTO aerodromos VALUES (10,'Aeródromo Santo Domingo','Santo Domingo');
+INSERT INTO aerodromos VALUES (11,'Aeródromo Rodelillo','Valparaíso');
+INSERT INTO aerodromos VALUES (12,'Helipuerto Las Salinas','Viña del Mar - Con Con');
+INSERT INTO aerodromos VALUES (13,'Aeródromo Viña del Mar','Viña del Mar - Valparaiso');
+INSERT INTO aerodromos VALUES (14,'Aeródromo Melipilla','Melipilla');
+INSERT INTO aerodromos VALUES (15,'Aeropuerto Arturo Merino Benítez','Santiago');
+INSERT INTO aerodromos VALUES (16,'Aeródromo Municipal de Vitacura','Santiago');
+INSERT INTO aerodromos VALUES (17,'Aeródromo La Victoria de Chacabuco','Santiago');
+INSERT INTO aerodromos VALUES (18,'Helipuerto La Parva','Santiago');
+INSERT INTO aerodromos VALUES (19,'Aeródromo Cuatro Diablos','Melipilla');
+INSERT INTO aerodromos VALUES (20,'Aeródromo Curacaví','Curacaví');
+
+-- TABLA TIPO AERONAVES ID , DESCRIPCION
+
+
+INSERT INTO TIPOS_AERONAVES VALUES (null,'Helicóptero BK-117');
+INSERT INTO TIPOS_AERONAVES VALUES (null,'Avion Cessna-172');
+
+-- TABLA AERONAVES      id,matricula,tipo_aeronave_id,estado,fecha_aeronavegabilidad,fecha_inspeccion_anual,horas_vuelo,dias_vuelo
+
+INSERT INTO aeronaves VALUES (1,'CCADS',1,'V','10/08/2016','29/08/2017',11200,2666);
+INSERT INTO aeronaves VALUES (2,'CCASS',1,'V','31/01/2016','02/01/2017',5789,1189);
+INSERT INTO aeronaves VALUES (3,'CCADT',1,'V','07/08/2017','17/09/2015',1108,354);
+INSERT INTO aeronaves VALUES (4,'CCADA',2,'V','26/10/2016','01/01/2017',576,208);
+INSERT INTO aeronaves VALUES (5,'CCAAV',2,'V','03/10/2017','26/02/2016',2630,548);
+INSERT INTO aeronaves VALUES (6,'CCAWQ',2,'V','27/05/2017','30/07/2016',1086,318);
+INSERT INTO aeronaves VALUES (7,'CCADE',2,'V','22/12/2017','08/12/2016',1326,567);
+INSERT INTO aeronaves VALUES (8,'CCAFD',2,'V','16/09/2016','14/02/2016',477,181);
+INSERT INTO aeronaves VALUES (9,'CCAGF',2,'V','18/10/2017','06/03/2016',1157,297);
+INSERT INTO aeronaves VALUES (10,'CCAFG',2,'V','26/09/2017','22/08/2016',1364,691);
+INSERT INTO aeronaves VALUES (11,'CCAEW',2,'V','02/03/2016','19/01/2016',1346,652);
+INSERT INTO aeronaves VALUES (12,'CCACC',2,'V','15/07/2016','01/03/2017',4641,1877);
+INSERT INTO aeronaves VALUES (13,'CCARV',2,'V','25/10/2016','22/10/2015',3608,931);
+INSERT INTO aeronaves VALUES (14,'CCAWB',2,'V','31/01/2016','22/04/2016',534,297);
+INSERT INTO aeronaves VALUES (15,'CCAMM',2,'V','05/03/2016','01/05/2017',684,204);
+INSERT INTO aeronaves VALUES (16,'CCANM',2,'V','22/12/2017','22/03/2016',1121,454);
+INSERT INTO aeronaves VALUES (17,'CCAVB',2,'V','08/04/2016','22/03/2016',875,347);
+INSERT INTO aeronaves VALUES (18,'CCABV',2,'V','29/05/2016','17/11/2016',895,363);
+INSERT INTO aeronaves VALUES (19,'CCAJK',2,'V','28/09/2017','14/01/2017',1511,722);
+INSERT INTO aeronaves VALUES (20,'CCAKJ',2,'V','24/04/2016','21/12/2015',439,191);
+
+-- TABLA VUELOS  id, aerodromo_id_origen, aerodromo_id_destino,horas_vuelo, condicion_vuelo,_mision_vuelo,fecha_vuelo,aeronaves_id
+
+INSERT INTO vuelos values (1,1,2,7,'I','Vuelo Exitoso','21/09/2016',1);
+INSERT INTO vuelos values (2,2,3,4,'I','Despegue Exitoso','22/09/2016',2);
+INSERT INTO vuelos values (3,10,4,6,'I','Vuelo Exitoso','23/09/2016',3);
+INSERT INTO vuelos values (4,3,6,5,'V','Aterrizaje exitoso','18/09/2016',4);
+INSERT INTO vuelos values (5,4,7,8,'V','Aterrizaje exitoso','10/09/2016',5);
+INSERT INTO vuelos values (6,5,5,3,'I','Vuelo Exitoso','09/09/2016',6);
+INSERT INTO vuelos values (7,6,8,4,'I','Aterrizaje exitoso','11/09/2016',7);
+INSERT INTO vuelos values (8,7,9,8,'V','Vuelo Exitoso','14/09/2016',8);
+INSERT INTO vuelos values (9,8,10,9,'I','Aterrizaje exitoso','12/09/2016',9);
+INSERT INTO vuelos values (10,9,11,6,'I','Vuelo Exitoso','15/09/2016',10);
+
+
+--TRIPULACION vuelos_id, pilotos_id
+
+INSERT INTO tripulacion values(1,1);
+INSERT INTO tripulacion values(1,2);
+INSERT INTO tripulacion values(2,3);
+INSERT INTO tripulacion values(2,4);
+INSERT INTO tripulacion values(3,5);
+INSERT INTO tripulacion values(3,6);
+INSERT INTO tripulacion values(4,7);
+INSERT INTO tripulacion values(4,8);
+INSERT INTO tripulacion values(5,9);
+INSERT INTO tripulacion values(5,10);
+INSERT INTO tripulacion values(6,11);
+INSERT INTO tripulacion values(6,12);
+INSERT INTO tripulacion values(7,13);
+INSERT INTO tripulacion values(8,14);
+INSERT INTO tripulacion values(8,15);
+INSERT INTO tripulacion values(9,16);
+INSERT INTO tripulacion values(9,17);
+INSERT INTO tripulacion values(10,18);
+INSERT INTO tripulacion values(10,19);
+
+
+
+--PLANES id, descripcion
+
+INSERT INTO planes values (1,'Inspeccion Diaria');
+INSERT INTO planes values (2,'Inspeccion De 50 horas');
+INSERT INTO planes values (3,'Inspeccion De 100 horas');
+INSERT INTO planes values (4,'Inspeccion De 1000 horas');
+
+
+--tipos_componentes id, descripcion
+
+INSERT INTO tipos_componentes values (1,'Fuselaje');
+INSERT INTO tipos_componentes values (2,'Alas');
+INSERT INTO tipos_componentes values (3,'Empenaje');
+INSERT INTO tipos_componentes values (4,'Controles y frenos aerodi');
+INSERT INTO tipos_componentes values (5,'Tren de aterrizaje');
+INSERT INTO tipos_componentes values (6,'Equipos');
+INSERT INTO tipos_componentes values (7,'Motor');
+INSERT INTO tipos_componentes values (8,'Cabina');
+
+--planes_mantenimientos, planes_id,tipos_componentes_id, tareas
+
+
+INSERT INTO planes_mantenimientos values (1,1,'A,B,C,D');
+INSERT INTO planes_mantenimientos values (1,2,'A,B,C,D,E');
+INSERT INTO planes_mantenimientos values (1,3,'A,B,C,D,E');
+INSERT INTO planes_mantenimientos values (1,4,'A');
+INSERT INTO planes_mantenimientos values (1,5,'A,B,C');
+INSERT INTO planes_mantenimientos values (1,6,'A,B,C');
+INSERT INTO planes_mantenimientos values (1,7,'A,B,C,D,E');
+
+INSERT INTO planes_mantenimientos values (2,1,'A,B,C,D,E,F');
+INSERT INTO planes_mantenimientos values (2,2,'A,B,C,D,E,F');
+INSERT INTO planes_mantenimientos values (2,3,'A,B');
+INSERT INTO planes_mantenimientos values (2,4,'X');
+INSERT INTO planes_mantenimientos values (2,5,'A,B,C,D,E');
+INSERT INTO planes_mantenimientos values (2,6,'X');
+INSERT INTO planes_mantenimientos values (2,7,'X');
+INSERT INTO planes_mantenimientos values (2,8,'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P');
+
+INSERT INTO planes_mantenimientos values (3,1,'1,2,3,4,5,6,7,8,9,10');
+INSERT INTO planes_mantenimientos values (3,2,'1,2,3,4,5,6,7,8,9,10');
+INSERT INTO planes_mantenimientos values (3,3,'1,2,3,4,5,6,7,8,9,10');
+INSERT INTO planes_mantenimientos values (3,4,'1,2,3,4,5,6,7,8,9,10');
+INSERT INTO planes_mantenimientos values (3,5,'1,2,3,4,5,6,7,8,9,10');
+INSERT INTO planes_mantenimientos values (3,6,'1,2,3,4,5,6,7,8,9,10');
+INSERT INTO planes_mantenimientos values (3,7,'1,2,3,4,5,6,7,8,9,10');
+INSERT INTO planes_mantenimientos values (3,8,'1,2,3,4,5,6,7,8,9,10');
+
+INSERT INTO planes_mantenimientos values (4,1,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+INSERT INTO planes_mantenimientos values (4,2,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+INSERT INTO planes_mantenimientos values (4,3,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+INSERT INTO planes_mantenimientos values (4,4,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+INSERT INTO planes_mantenimientos values (4,5,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+INSERT INTO planes_mantenimientos values (4,6,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+INSERT INTO planes_mantenimientos values (4,7,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+INSERT INTO planes_mantenimientos values (4,8,'1,2,3,a,b,c,d,e,f,g,h,i,j,k,l');
+
+
+-- TABLA COMPONENTES id,descripcion,fabricante,horas_vuelo,dias_vuelo,tipos_componentes_id,componentes_id, aeronaves_id
+
+INSERT INTO componentes VALUES (1,'Sin informacion','Cras Inc',11200,2666,1,'',1);
+INSERT INTO componentes VALUES (2,'Sin informacion','Ultricies Corporation',5789,1189,1,'',2);
+INSERT INTO componentes VALUES (3,'Sin informacion','Eget LLP',5789,1189,3,'',2);
+INSERT INTO componentes VALUES (4,'Sin informacion','Erat Consulting',5789,1189,4,'',2);
+INSERT INTO componentes VALUES (5,'Sin informacion','Tincidunt Inc.',5789,1189,5,'',2);
+INSERT INTO componentes VALUES (6,'Sin informacion','Orci In Consequat Corp.',1108,354,1,'',3);
+INSERT INTO componentes VALUES (7,'Sin informacion','Conubia Limited',1108,354,1,'',3);
+INSERT INTO componentes VALUES (8,'Sin informacion','Augue Consulting',1108,354,3,'',3);
+INSERT INTO componentes VALUES (9,'Sin informacion','Mauris Institute',1108,354,4,'',3);
+INSERT INTO componentes VALUES (10,'Sin informacion','Scelerisque Corp.',813,87,5,'',4);
+INSERT INTO componentes VALUES (11,'Sin informacion','Ultrices Foundation',439,2246,6,'',4);
+INSERT INTO componentes VALUES (12,'Sin informacion','Quis Limited',821,1212,7,'',4);
+INSERT INTO componentes VALUES (13,'Sin informacion','Cursus Foundation',678,260,1,'',4);
+INSERT INTO componentes VALUES (14,'Sin informacion','Semper Foundation',576,208,1,'',5);
+INSERT INTO componentes VALUES (15,'Sin informacion','Vivamus Rhoncus LLP',576,208,2,'',5);
+INSERT INTO componentes VALUES (16,'Sin informacion','Sed Nulla Institute',576,208,8,'',5);
+INSERT INTO componentes VALUES (17,'Sin informacion','Faucibus Industries',576,208,7,'',5);
+INSERT INTO componentes VALUES (18,'Sin informacion','Fringilla Institute',1086,318,7,'',6);
+INSERT INTO componentes VALUES (19,'Sin informacion','Iaculis Consulting',1086,318,8,'',6);
+INSERT INTO componentes VALUES (20,'Sin informacion','Iaculis Consulting',1086,318,1,'',6);
+INSERT INTO componentes VALUES (21,'Sin informacion','Porta Elit Corp.',4641,1877,1,'',7);
+INSERT INTO componentes VALUES (22,'Sin informacion','Porta Elit Corp.',3608,931,1,'',8);
+INSERT INTO componentes VALUES (23,'Sin informacion','Porta Elit Corp.',684,204,1,'',9);
+INSERT INTO componentes VALUES (24,'Sin informacion','Porta Elit Corp.',875,347,1,'',10);
+INSERT INTO componentes VALUES (25,'Sin informacion','Porta Elit Corp.',1511,722,2,'',11);
+
+
+
+--tabla mantenimientos id, fecha inicio, fecha termmino
+
+INSERT INTO mantenimientos VALUES (1,'27/06/2016','02/07/2016');
+INSERT INTO mantenimientos VALUES (2,'24/06/2016','07/07/2016');
+INSERT INTO mantenimientos VALUES (3,'14/07/2016','04/08/2016');
+INSERT INTO mantenimientos VALUES (4,'24/07/2016','01/08/2016');
+INSERT INTO mantenimientos VALUES (5,'12/07/2016','03/08/2016');
+
+
+
+
+
+
+--tabla detalles_mantenimientos    mantenimientos_id, componentes_id, planes_m_planes_id , planes_m_tipos_componentes_id,tareas_seleccionadas estado
+
+INSERT INTO detalles_mantenimientos VALUES (1,21,1,1,'A,B,C,D','En buen estado');
+INSERT INTO detalles_mantenimientos VALUES (2,22,2,1,'A,B,C,D','En buen estado');
+INSERT INTO detalles_mantenimientos VALUES (3,23,3,1,'A,B,C,D','En buen estado');
+INSERT INTO detalles_mantenimientos VALUES (4,24,4,1,'A,B,C,D','En buen estado');
+INSERT INTO detalles_mantenimientos VALUES (5,25,2,1,'A,B,C,D,E,F','En buen estado');
