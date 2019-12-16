@@ -1,0 +1,74 @@
+package Database;
+
+import javax.swing.JOptionPane;
+import java.sql.Connection;
+import java.sql.CallableStatement;
+import java.sql.*;
+
+public class Conexion {
+
+    Connection conexion;
+
+    public Connection getConexion() {
+
+        return conexion;
+    }
+
+    public void setConexion(Connection conexion) {
+        this.conexion = conexion;
+    }
+
+    public Conexion conectar() {
+        try {
+            Class.forName("oracle.jdbc.OracleDriver");
+            String BaseDeDatos = "jdbc:oracle:thin:@escuelavuelo.ccjs1vqr4hyu.us-west-2.rds.amazonaws.com:1521:orcl";
+            conexion = DriverManager.getConnection(BaseDeDatos, "escuela", "12345678");
+        } catch (ClassNotFoundException | SQLException e) {
+            JOptionPane.showMessageDialog(null, e + "NO HAY CONEXIÓN");
+        }
+        return this;
+    }
+
+    public boolean escribir(String sql) {
+        try {
+            Statement sentencia;
+            sentencia = getConexion().createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY);
+            sentencia.executeUpdate(sql);           
+            sentencia.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.print("ERROR SQL");
+            return false;
+        }
+        return true;
+    }
+
+    public ResultSet consultar(String sql) {
+        ResultSet resultado = null;
+        Conexion con = new Conexion();
+        try {
+            con.conectar();
+            Connection myconnection = con.getConexion();
+            PreparedStatement myStatement = myconnection.prepareStatement(sql);
+            resultado = myStatement.executeQuery();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+        return resultado;
+
+    }
+
+    public void sumar_horas(int id_vuelo) {
+        Conexion dbconn = new Conexion();
+        try {
+            dbconn.conectar();
+            Connection myconnection = dbconn.getConexion();
+            PreparedStatement pstm = myconnection.prepareStatement("{ call escuela.sp_distribuir_horas_vuelo(?) }");
+            pstm.setInt(1, id_vuelo);
+            pstm.executeQuery();
+        } catch (SQLException ex) {
+            System.out.println(ex);
+        }
+    }
+}
